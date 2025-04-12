@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info Section */}
           <div className="col-lg-5 col-md-6 mb-4">
             <h5 className="footer-logo mb-4 text-light" style={{ fontSize: '2rem', fontWeight: 'bold' }}>
-              Fast Foods
+              Armk Foods
             </h5>
             <p className="text-light" style={{ lineHeight: '1.8', fontSize: '1.1rem' }}>
               Experience the best of gourmet meals, delivered fresh to your door. At Armk Foods, we blend quality ingredients with a passion for delicious food, ensuring a delightful experience with every meal.
@@ -56,11 +56,11 @@ const Footer = () => {
             <ul className="list-unstyled text-light" style={{ lineHeight: '1.8', fontSize: '1.1rem' }}>
               <li className="mb-2">
                 <i className="fas fa-phone-alt me-2 text-light"></i>
-                <span className="text-light">+91 - 2233244555</span>
+                <span className="text-light">+91 - 7507759703</span>
               </li>
               <li>
                 <i className="fas fa-envelope me-2 text-light"></i>
-                <span className="text-light">fastfoods@gmail.com</span>
+                <span className="text-light">armkfoods@gmail.com</span>
               </li>
             </ul>
             <div className="mt-4">
@@ -76,7 +76,7 @@ const Footer = () => {
 
       <div className="text-center">
         <p className="mb-0 text-light" style={{ fontSize: '0.9rem', letterSpacing: '1px' }}>
-          &copy; 2024 ff.com - All Rights Reserved.
+          &copy; 2024 Armk.com - All Rights Reserved.
         </p>
       </div>
     </footer>

@@ -47,7 +47,7 @@ const Navbar = ({ setIsLoggedIn }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1">Fast Foods - Admin Panel</span>
+        <span className="navbar-brand mb-0 h1">Armk Foods - Admin Panel</span>
         <div className="d-flex align-items-center">
           {showAdminLogin ? (
             <form className="d-flex" onSubmit={handleLogin}>
