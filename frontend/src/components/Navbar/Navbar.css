@@ -1,0 +1,122 @@
+/* Navbar styling */
+.navbar {
+    border-bottom: 1px solid #e0e0e0; /* Light border at the bottom */
+    padding: 0.5rem 1rem; /* Added padding for spacing */
+    background-color: #34312D;
+}
+
+.navbar-brand {
+    font-size: 1.75rem; /* Larger font size for brand name */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Brand color */
+}
+
+.navbar-brand.active {
+    color: #0056b3; /* Darker color for active state */
+}
+
+.nav-link {
+    color: #333; /* Default link color */
+    font-size: 1rem; /* Font size for nav links */
+    padding: 0.5rem 1rem; /* Padding for better spacing */
+}
+
+.nav-link.active {
+    color: #007bff; /* Active link color */
+    font-weight: bold; /* Bold text for active link */
+}
+
+.navbar-icon {
+    width: 24px; /* Size of icons */
+    height: 24px;
+}
+
+.dot {
+    top: -5px;
+    right: -5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #dc3545; /* Red dot for notifications */
+}
+
+.navbar-profile {
+    position: relative;
+}
+
+.navbar-profile-dropdown {
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    width: 200px;
+    display: none; /* Hidden by default */
+    z-index: 1050; /* Ensure it appears above other content */
+}
+
+.navbar-profile:hover .navbar-profile-dropdown {
+    display: block; /* Show dropdown on hover */
+}
+
+.navbar-profile-dropdown .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.navbar-profile-dropdown .dropdown-item:hover {
+    background-color: #f8f9fa; /* Light background on hover */
+}
+
+.navbar-profile-dropdown .dropdown-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+/* Redesigned Search Bar */
+.search-form .input-group {
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-form .form-control {
+    border-radius: 20px 0 0 20px;
+}
+
+.search-form .input-group-text {
+    border-radius: 0 20px 20px 0;
+    background-color: #ffffff; /* Match the background with the form */
+    border: 1px solid #e0e0e0; /* Light border for consistency */
+}
+
+.search-form .btn {
+    border-radius: 20px;
+    background-color: #007bff; /* Match the brand color */
+    color: #ffffff; /* White text color for contrast */
+    border: 1px solid #007bff; /* Border color matching the button background */
+}
+
+.search-form .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border: 1px solid #0056b3; /* Darker border color on hover */
+}
+
+.cart-count {
+    top: -10px;
+    right: -10px;
+    width: 24px;
+    height: 24px;
+    background-color: #dc3545; /* Red background color for visibility */
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

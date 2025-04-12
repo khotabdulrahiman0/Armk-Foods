@@ -1,0 +1,93 @@
+.login-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.login-popup {
+    max-width: 400px; 
+    width: 100%;
+    border-radius: 8px; 
+    border: 1px solid #e0e0e0; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transition: background-color 0.5s ease-in-out; 
+    padding: 2rem; 
+}
+
+.bg-login {
+    background-color: #e3f2fd; 
+}
+
+.bg-signup {
+    background-color: #bbdefb; 
+}
+
+.bg-transition {
+    background-color: #cfd8dc; 
+}
+
+.login-popup h2 {
+    color: #333333; 
+    font-weight: 600; 
+}
+
+.login-popup .form-control {
+    border: 1px solid #ced4da; 
+    border-radius: 0.5rem; 
+    padding: 0.75rem 1.25rem; 
+    transition: border-color 0.3s ease-in-out; 
+}
+
+.login-popup .form-control:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); 
+}
+
+.login-popup .btn-primary {
+    background-color: #28a745; 
+    border-color: #28a745; 
+    padding: 0.75rem 1.25rem; 
+    border-radius: 0.5rem; 
+}
+
+.login-popup .btn-primary:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+}
+
+.login-popup .form-check-label {
+    color: #495057; 
+}
+
+.login-popup .text-primary {
+    color: #17a2b8; 
+    font-weight: 500; 
+}
+
+.login-popup .text-primary:hover {
+    text-decoration: underline; 
+}
+
+.form-check-input {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.form-check-label {
+    font-size: 0.875rem;
+    color: #333333;
+}
+
+.no-scroll {
+    overflow: hidden;
+    height: 100vh; 
+}

@@ -1,0 +1,30 @@
+/* Make table rows more visually appealing */
+.table-bordered tr th, .table-bordered tr td {
+    vertical-align: middle;
+  }
+  
+  /* Add subtle hover effects */
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the pagination section */
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls .btn {
+    min-width: 40px;
+    text-align: center;
+  }
+  
+  /* Mobile Responsive Adjustments */
+  @media (max-width: 600px) {
+    .table {
+      font-size: 14px;
+    }
+  }
+  

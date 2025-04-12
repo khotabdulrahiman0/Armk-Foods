@@ -1,0 +1,46 @@
+.menu-item .card-img-top {
+    width: 100px; /* Set the desired width of the circle */
+    height: 100px; /* Set the desired height of the circle */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    transition: transform 0.3s;
+  }
+  
+  .menu-item.active .card-img-top,
+  .menu-item:hover .card-img-top {
+    transform: scale(1.1); /* Slightly enlarge the image on hover and when active */
+  }
+.menu-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-item .card-img-top {
+    transition: transform 0.3s;
+  }
+  
+  .menu-item:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  
+  .menu-item .card {
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .menu-item.active .card {
+    border-color: #007bff;
+  }
+  
+  .active-card {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .active-card .card-img-top {
+    transform: scale(1.1);
+  }
+  
