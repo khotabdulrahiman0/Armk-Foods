@@ -20,7 +20,7 @@ const Navbar = ({ setIsLoggedIn }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:4000/api/admin/login', data);
+      const response = await axios.post('https://armk-foods-backend.onrender.com/api/admin/login', data);
       if (response.data.success) {
         localStorage.setItem("token", response.data.token);
         setIsLoggedIn(true);
