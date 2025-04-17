@@ -5,7 +5,7 @@ import { menu_list } from "../assets/assets"; // Assuming this is a static list
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-  const url = "http://localhost:4000";
+  const url = "https://armk-foods-backend.onrender.com";
   const [food_list, setFoodList] = useState([]); // This will be fetched from the server
   const [cartItems, setCartItems] = useState({});
   const [token, setToken] = useState("");
