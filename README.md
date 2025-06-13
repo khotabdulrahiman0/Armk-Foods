@@ -27,7 +27,6 @@ A full-stack Food Delivery website for a single restaurant, built using the **ME
 
 ## 📷 Screenshots
 
-_Add screenshots of homepage, cart, checkout, admin panel, etc._
 
 ## 📁 Folder Structure
 
